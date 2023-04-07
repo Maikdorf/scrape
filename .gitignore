@@ -1,4 +1,5 @@
 node_modules
+scratching/*/
 
 # Editor directories and files
 .DS_store
