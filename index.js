@@ -7,15 +7,11 @@ TODO:
 import scrape from 'website-scraper';
 import PuppeteerPlugin from 'website-scraper-puppeteer';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __FILENAME = fileURLToPath(import.meta.url);
-const __DIRNAME = path.dirname(__FILENAME);
-
-const DOMAIN = 'http://books.toscrape.com'; //example
+const DOMAIN = 'http://juanduncan.com'; //example
 let directory = DOMAIN.split('//')[1];
 
-directory = path.resolve('/scratching', directory.replace('/', '__'));
+directory = path.resolve('scratching/', directory.replace('/', '__'));
 
 console.log(directory);
 const URLS = [
