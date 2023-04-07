@@ -13,7 +13,6 @@ let directory = DOMAIN.split('//')[1];
 
 directory = path.resolve('scratching/', directory.replace('/', '__'));
 
-console.log(directory);
 const URLS = [
   `${DOMAIN}`,
   //`${DOMAIN}/home.html`, example
